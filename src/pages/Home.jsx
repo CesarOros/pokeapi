@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import LogoPokemon from '../assets/LogoPokemon.png';
+import LogoPokemon from '../assets/logoPokemon.png';
 import { Alert, Autocomplete, Button, Snackbar, TextField } from '@mui/material';
 import { generateRandomNumber, parseDataPokemonList } from '../utils/utils';
 import { getAllPokemon, getPokemon } from '../hooks/pokemonHooks';
